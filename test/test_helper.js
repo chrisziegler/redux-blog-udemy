@@ -34,4 +34,3 @@ $.fn.simulate = function(eventName, value) {
 };
 
 export {renderComponent, expect};
-
