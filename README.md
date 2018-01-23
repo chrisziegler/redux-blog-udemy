@@ -1,25 +1,17 @@
-# ReduxSimpleStarter
+# React/Redux Blog w/API integration
+POST/ GET/ DELETE/ no PATCH/ as of yet. 
+React Router 4.0, Redux Form v6
+Boilerplate from Modern React/Redux Stephen Grider @Udemy. No auth, API uses key. Integrate concepts into own Node backend.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+#### Redux Middleware
+redux-promise
 
-### Getting Started
+#### APIs
+ Stephen Grider's: http://reduxblog.herokuapp.com/api
 
-There are two methods for getting started with this repo.
+#### Libraries
+React/ReactDOM
+Lodash
+Axios
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+*Old version of create-react-app, so running React 0.14.3 and webpack 1.14.0*
