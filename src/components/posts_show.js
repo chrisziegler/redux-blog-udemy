@@ -11,11 +11,8 @@ class PostsShow extends Component {
 
 onDeleteClick() {
   const { id } = this.props.match.params;
-
+  
   this.props.deletePost(id, () => {
-  // whenever user clicks delete button
-  // wait on request to be completed (callback in deletePost
-  // then navigate user back to list of posts
   this.props.history.push('/');
   });
 }

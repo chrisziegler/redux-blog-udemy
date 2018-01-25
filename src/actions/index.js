@@ -37,8 +37,6 @@ export function fetchPost(id) {
 
 export function deletePost(id, callback) {
   const request = axios.delete(`${ROOT_URL}/posts/${id}${API_KEY}`)
-   //whenever request is successfully completed call this callback
-  // which will navigate user back to the root (PostsIndex)
   .then(() => callback());
 
   return {
